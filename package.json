@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@fearcleari/eslint-config-monorepo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
