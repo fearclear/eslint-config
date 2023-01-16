@@ -39,10 +39,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - name: Publish
+      - uses: actions/cache@v31
+        name: Setup publish pnpm cache
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-        run: pnpm -r publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+
+      - name: Publish pnpm
+        run: pnpm -r publish
