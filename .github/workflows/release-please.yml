@@ -12,4 +12,5 @@ jobs:
         with:
           token: ${{ secrets.RELEASE_TOKEN }}
           release-type: node
+          monorepo-tags: true
           package-name: release-please-action
