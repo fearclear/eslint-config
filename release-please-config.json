@@ -2,7 +2,12 @@
   "release-type": "node",
   "packages": {
     ".": {
-      "component": "@fearcleari/eslint-config-monorepo"
+      "changelog-path": "CHANGELOG.md",
+      "release-type": "node",
+      "bump-minor-pre-major": false,
+      "bump-patch-for-minor-pre-major": false,
+      "draft": false,
+      "prerelease": false
     },
     "packages/basic": {
       "component": "@fearcleari/eslint-config-basic"
@@ -16,5 +21,6 @@
     "packages/vue": {
       "component": "@fearcleari/eslint-config-vue"
     }
-  }
+  },
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
 }
