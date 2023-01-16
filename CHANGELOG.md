@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/fearclear/eslint-config/compare/v1.0.0...v1.1.0) (2023-01-16)
+
+
+### Features
+
+* update eslint-config-vue ([22c55c5](https://github.com/fearclear/eslint-config/commit/22c55c5fde96b1f8c83eab12833912880fde7506))
+
 ## 1.0.0 (2023-01-12)
 
 
