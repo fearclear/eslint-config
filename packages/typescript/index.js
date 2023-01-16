@@ -10,7 +10,7 @@ module.exports = {
     'no-unused-vars': 0,
     'no-undef': 0,
     'no-useless-constructor': 0,
-    // 覆盖 typescript-eslint 推荐配置
+    // 覆盖 typescript-eslint 配置
     '@typescript-eslint/no-unused-vars': [
       'warn',
       {
