@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2023-01-16)
+
+
+### Features
+
+* add package dependencies ([685716a](https://github.com/fearclear/eslint-config/commit/685716a05ad497530abbdcad26018bdb16dd70f6))
+
 ## [1.3.0](https://github.com/fearclear/eslint-config/compare/release-please-action-v1.2.0...release-please-action-v1.3.0) (2023-01-16)
 
 
