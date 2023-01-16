@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/fearclear/eslint-config/compare/release-please-action-v1.1.0...release-please-action-v1.2.0) (2023-01-16)
+
+
+### Features
+
+* add release-please-config ([be38964](https://github.com/fearclear/eslint-config/commit/be389641ee6573e153e770caa2a7f824efffb463))
+
 ## [1.1.0](https://github.com/fearclear/eslint-config/compare/release-please-action-v1.0.0...release-please-action-v1.1.0) (2023-01-16)
 
 
