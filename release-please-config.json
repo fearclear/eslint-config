@@ -1,0 +1,20 @@
+{
+  "release-type": "node",
+  "packages": {
+    ".": {
+      "component": "@fearcleari/eslint-config-monorepo"
+    },
+    "packages/basic": {
+      "component": "@fearcleari/eslint-config-basic"
+    },
+    "packages/typescript": {
+      "component": "@fearcleari/eslint-config"
+    },
+    "packages/react": {
+      "component": "@fearcleari/eslint-config-react"
+    },
+    "packages/vue": {
+      "component": "@fearcleari/eslint-config-vue"
+    }
+  }
+}
