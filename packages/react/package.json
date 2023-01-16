@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "@fearcleari/eslint-config": "workspace:*",
-    "eslint-plugin-react": "^7.32.0"
+    "eslint-plugin-react": "^7.32.0",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
     "eslint": "^8.29.0",
