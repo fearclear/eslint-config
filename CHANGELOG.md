@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/fearclear/eslint-config/compare/v1.4.0...v1.5.0) (2023-01-16)
+
+
+### Features
+
+* add base rule ([639a01d](https://github.com/fearclear/eslint-config/commit/639a01dbf5b7167c644e5367c47da6f9285a13fb))
+
 ## [1.4.0](https://github.com/fearclear/eslint-config/compare/v1.3.0...v1.4.0) (2023-01-16)
 
 
