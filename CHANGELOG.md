@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/fearclear/eslint-config/compare/v1.2.0...v1.3.0) (2023-01-16)
+
+
+### Features
+
+* add react hook plugin ([2119e9d](https://github.com/fearclear/eslint-config/commit/2119e9d59ab44c62c735b87812227367446db963))
+
 ## [1.2.0](https://github.com/fearclear/eslint-config/compare/v1.1.0...v1.2.0) (2023-01-16)
 
 
