@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.0](https://github.com/fearclear/eslint-config/compare/v1.1.0...v1.2.0) (2023-01-16)
+
+
+### Features
+
+* add no-git-checks ([2f44201](https://github.com/fearclear/eslint-config/commit/2f44201e3ce06b0448c21d167ebed50874045486))
+* add package dependencies ([685716a](https://github.com/fearclear/eslint-config/commit/685716a05ad497530abbdcad26018bdb16dd70f6))
+* add release-please-config ([be38964](https://github.com/fearclear/eslint-config/commit/be389641ee6573e153e770caa2a7f824efffb463))
+* update release-please-config.json ([a621612](https://github.com/fearclear/eslint-config/commit/a62161262670700f16963b3ce09bff3df306a812))
+
 ## [1.1.0](https://github.com/fearclear/eslint-config/compare/release-please-action-v1.0.0...release-please-action-v1.1.0) (2023-01-16)
 
 
