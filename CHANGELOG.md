@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/fearclear/eslint-config/compare/v1.3.0...v1.4.0) (2023-01-16)
+
+
+### Features
+
+* add lerna control version ([fe85b2d](https://github.com/fearclear/eslint-config/commit/fe85b2d13495614a9886ec46df5cafa34c443ea4))
+
 ## [1.3.0](https://github.com/fearclear/eslint-config/compare/v1.2.0...v1.3.0) (2023-01-16)
 
 
