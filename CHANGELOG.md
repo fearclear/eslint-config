@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/fearclear/eslint-config/compare/release-please-action-v1.0.0...release-please-action-v1.1.0) (2023-01-16)
+
+
+### Features
+
+* add no-git-checks ([2f44201](https://github.com/fearclear/eslint-config/commit/2f44201e3ce06b0448c21d167ebed50874045486))
+
 ## 1.0.0 (2023-01-16)
 
 
