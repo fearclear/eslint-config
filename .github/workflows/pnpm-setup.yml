@@ -39,15 +39,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-  publish:
-    needs: cache-and-install
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Publish
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: pnpm -r publish
+        run: pnpm -r publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
