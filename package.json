@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@fearcleari/eslint-config": "*"
+    "@fearcleari/eslint-config": "*",
+    "lerna": "^6.4.1"
   },
   "engines": {
     "node": ">=16.0.0",
