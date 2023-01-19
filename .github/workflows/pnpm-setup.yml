@@ -19,9 +19,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Release version
-        run: npx lerna version patch
-
       - name: Publish pnpm
         run: pnpm -r publish --no-git-checks --access public
         env:
