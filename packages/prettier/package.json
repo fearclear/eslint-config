@@ -1,0 +1,21 @@
+{
+  "name": "@fearcleari/eslint-config-prettier",
+  "version": "0.0.4",
+  "description": "",
+  "author": "fearclear <fearcleari@gmail.com.com>",
+  "license": "MIT",
+  "keywords": [
+    "prettier"
+  ],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  }
+}

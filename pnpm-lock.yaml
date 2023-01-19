@@ -31,6 +31,12 @@ importers:
       eslint: 8.31.0
       prettier: 2.8.3
 
+  packages/prettier:
+    specifiers:
+      prettier: ^2.8.3
+    devDependencies:
+      prettier: 2.8.3
+
   packages/react:
     specifiers:
       '@fearcleari/eslint-config': workspace:*
