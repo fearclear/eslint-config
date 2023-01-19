@@ -13,11 +13,13 @@ importers:
   packages/basic:
     specifiers:
       eslint: ^8.29.0
+      eslint-config-prettier: ^8.6.0
       eslint-config-standard: ^17.0.0
       eslint-plugin-import: ^2.27.2
       eslint-plugin-n: ^15.6.1
       eslint-plugin-promise: ^6.1.1
     dependencies:
+      eslint-config-prettier: 8.6.0_eslint@8.31.0
       eslint-config-standard: 17.0.0_nllfsn7qzxrxeqsd2evivpewxa
       eslint-plugin-import: 2.27.2_eslint@8.31.0
       eslint-plugin-n: 15.6.1_eslint@8.31.0
@@ -2292,6 +2294,15 @@ packages:
   /escape-string-regexp/4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
+
+  /eslint-config-prettier/8.6.0_eslint@8.31.0:
+    resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.31.0
+    dev: false
 
   /eslint-config-standard/17.0.0_nllfsn7qzxrxeqsd2evivpewxa:
     resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
