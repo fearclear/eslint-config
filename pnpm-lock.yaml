@@ -5,9 +5,11 @@ importers:
   .:
     specifiers:
       '@fearcleari/eslint-config': '*'
+      '@fearcleari/eslint-config-prettier': workspace:*
       lerna: ^6.4.1
     devDependencies:
       '@fearcleari/eslint-config': link:packages/typescript
+      '@fearcleari/eslint-config-prettier': link:packages/prettier
       lerna: 6.4.1
 
   packages/basic:
