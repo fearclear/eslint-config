@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
     "@fearcleari/eslint-config": "*",
     "@fearcleari/eslint-config-prettier": "workspace:*",
     "lerna": "^6.4.1"
